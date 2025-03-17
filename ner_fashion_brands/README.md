@@ -1,8 +1,7 @@
-<!-- WEASEL: AUTO-GENERATED DOCS START (do not remove) -->
 
-# 🪐 Weasel Project: Detecting fashion brands in online comments (Named Entity Recognition)
+# Detecting fashion brands in online comments (Named Entity Recognition)
 
-This project uses [`sense2vec`](https://github.com/explosion/sense2vec) and [Prodigy](https://prodi.gy) to bootstrap an NER model to detect fashion brands in [Reddit comments](https://files.pushshift.io/reddit/comments/). For more details, see [our blog post](https://explosion.ai/blog/sense2vec-reloaded#annotation).
+This project uses [`sense2vec`](https://github.com/explosion/sense2vec) and [Prodigy](https://prodi.gy) to bootstrap an NER model to detect fashion brands in [Reddit comments](https://files.pushshift.io/reddit/comments/).
 
 ## 📋 project.yml
 
@@ -48,7 +47,6 @@ in the project directory.
 | [`assets/fashion_brands_eval.jsonl`](assets/fashion_brands_eval.jsonl) | Local | JSONL-formatted development data exported from Prodigy, annotated with `FASHION_BRAND` entities (500 examples) |
 | [`assets/fashion_brands_patterns.jsonl`](assets/fashion_brands_patterns.jsonl) | Local | Patterns file generated with `sense2vec.teach` and used to pre-highlight during annotation (100 patterns) |
 
-<!-- WEASEL: AUTO-GENERATED DOCS END (do not remove) -->
 
 ---
 
