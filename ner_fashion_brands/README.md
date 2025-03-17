@@ -6,8 +6,7 @@ This project uses [`sense2vec`](https://github.com/explosion/sense2vec) and [Pro
 ## 📋 project.yml
 
 The [`project.yml`](project.yml) defines the data assets required by the
-project, as well as the available commands and workflows. For details, see the
-[Weasel documentation](https://github.com/explosion/weasel).
+project, as well as the available commands and workflows.
 
 ### ⏯ Commands
 
